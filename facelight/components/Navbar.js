@@ -2,12 +2,13 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="w-max">
-        <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-white font-bold">
+    <div className="bg-black h-16 text-white flex items-center justify-between">
+        <h1 className="text-2xl p-5">
           FaceLight
         </h1>
-      </div>
+        <div className="p-5">
+          <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Login</button>
+        </div>
     </div>
   );
 };
